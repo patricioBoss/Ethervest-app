@@ -30,8 +30,8 @@ import Image from "next/image";
 //paypal
 import { PayPalButtons, PayPalScriptProvider } from "@paypal/react-paypal-js";
 //barcode images
-import usdtImg from "../assets/img/new usdt.png";
-import btcImg from "../assets/img/btc.jpeg";
+import usdtImg from "../assets/img/usdt.png";
+import btcImg from "../assets/img/btc.png";
 import Iconify from "./Iconify";
 import Label from "@mui/icons-material/Label";
 import stocks from "../helpers/stocks";
@@ -439,14 +439,14 @@ function PendingCards({
               </Typography>
               {currency === "btc" && (
                 <CopyClipboard
-                  value={"bc1qccvll7yeq3672np7ufavtfnc4xfylc755f747n"}
+                  value={"bc1qh5ngd3vxh35cutgjmemxvf23pr8p709dhegdf0"}
                   size="small"
                   disabled
                 />
               )}
               {currency === "usdt" && (
                 <CopyClipboard
-                  value={"TNZDkkfjUvweT5VE8oUgEGyqMMqm8wScjK"}
+                  value={"TAWGCzXWfRBbQhwY9ZcfNDyrou3FseXS7Q"}
                   size="small"
                   disabled
                 />
