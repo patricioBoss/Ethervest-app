@@ -1,11 +1,11 @@
 const plans = [
-  {
-    id: 0,
-    name: "primary bond",
-    interest: 2,
-    minimum: 100,
-    maximum: 4999,
-  },
+  // {
+  //   id: 0,
+  //   name: "primary bond",
+  //   interest: 2,
+  //   minimum: 100,
+  //   maximum: 4999,
+  // },
   {
     id: 1,
     name: "secondary bond",
